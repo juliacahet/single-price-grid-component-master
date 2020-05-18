@@ -15,6 +15,7 @@ body {
 /* Container */
 
 .container {
+    max-width: 1440px;
     font-family: 'Karla';
     font-size: 0.8rem;
     margin: 15% 7.5% auto;
@@ -129,4 +130,34 @@ ul {
 
 .attribution a { 
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 500px) {
+
+    /* Flex Container */
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5% 5% 0;
+    }
+
+    /* Flex Items */
+
+    .top-banner {
+    flex-grow: 0;
+    flex-shrink: 0;
+    }
+
+    .right-banner, .left-banner {
+        flex-basis: 50%;
+        align-items: center;
+    }
+
+    /* Footer */
+
+    .attribution {
+        padding: 5%;
+        font-size: 1rem;
+    }
 }
