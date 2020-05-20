@@ -218,7 +218,7 @@ ul {
     /* Footer */
 
     .attribution {
-        padding-bottom: 3%;
+        padding: 0;
         font-size: 1rem;
     }
 }

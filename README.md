@@ -1,3 +1,8 @@
+
+Check the final live version coded by me!
+https://single-price-grid-component-master-jcahet.netlify.app/
+
+
 # Frontend Mentor - Single Price Grid Component
 
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
