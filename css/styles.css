@@ -8,7 +8,7 @@
 
 body {
     width: 100%;
-    height:100%;
+    height: 100%;
     background-color: hsl(204, 43%, 93%);
 }
 
@@ -134,30 +134,85 @@ ul {
 
 @media (min-width: 500px) {
 
+    
     /* Flex Container */
 
     .container {
         display: flex;
         flex-wrap: wrap;
-        margin: 5% 5% 0;
+        margin: 5% 20% 0;
     }
 
     /* Flex Items */
 
     .top-banner {
     flex-grow: 0;
-    flex-shrink: 0;
     }
 
     .right-banner, .left-banner {
         flex-basis: 50%;
-        align-items: center;
     }
+
+    .top-banner, .left-banner, .right-banner {
+        padding: 5.5%;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    /* Top Banner */
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    .top-banner h2 {
+        font-size: 1.5rem;
+        padding: 3% 0 2%;
+    }
+    
+    .top-banner p {
+        font-size: 1.2rem;
+    }
+
+
+    /* Left Banner */
+
+    .monthly-price {
+        padding: 7% 0 3%;
+    }
+
+    .amount {
+        font-size: 2.3rem;
+    }
+
+    .per-month {
+        padding-left: 4.5%;
+        font-size: 1.1rem;
+    }
+
+    .daily-price {
+        font-size: 1.1rem;
+        padding-bottom: 13%;
+    }
+
+    button {
+        font-size: 1.1rem;
+    }
+
+
+    /* Right Banner */
+
+    ul {
+        font-size: 1.1rem;
+    }
+
 
     /* Footer */
 
     .attribution {
-        padding: 5%;
+        padding: 3%;
         font-size: 1rem;
     }
 }
