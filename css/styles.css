@@ -146,12 +146,10 @@ ul {
 
     .top-banner {
     flex-grow: 0;
-    flex-shrink: 0;
     }
 
     .right-banner, .left-banner {
         flex-basis: 50%;
-        align-items: center;
     }
 
     /* Footer */
