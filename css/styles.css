@@ -182,19 +182,14 @@ ul {
         font-size: 1.2rem;
     }
 
-
+    
     /* Left Banner */
-
-    .monthly-price {
-        padding: 7% 0 3%;
-    }
 
     .amount {
         font-size: 2.3rem;
     }
 
     .per-month {
-        /* padding-left: 4.5%; */
         font-size: 1.1rem;
     }
 
